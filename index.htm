@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<title>Moulin Treillard - Fully renovated watermill with pool, large garden, lake</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;family=Roboto&amp;display=swap" rel="stylesheet"><style type="text/css">
+html, body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	scroll-behavior: smooth;
+	position: relative;
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5,h6, nav {
+	font-family: 'Montserrat', sans-serif;
+}
+h2, h3 { font-size: 2em; }
+main p {
+	line-height: 1.45em;
+}
+	header { 
+		min-height: 500px;
+		background-image: url(assets/header.jpg);
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	}
+	header h1, main, nav.primary div {
+		max-width: 940px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
+	header h1 {
+		color: #f6f1e5;
+    	padding-top: 350px;
+    	font-size: 3em;
+    	z-index: 200;
+    position: relative;
+	}
+	.black-fade {
+		    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 200px;
+    z-index: 100;
+background: rgb(64,64,64);
+background: linear-gradient(0deg, rgba(64,64,64,0.8463760504201681) 0%, rgba(255,255,255,0) 100%);
+	}
+	h3 {
+    padding-top: 70px;
+    font-size: 2em;
+	}
+
+	nav.secondary, .photos {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+	nav.secondary a, .photos a, .gallery-items {
+		flex:  30%;
+		height: 220px;
+		text-decoration: none;
+		color: black;
+		background-color: #a3ac6d;
+		-webkit-box-shadow: 2px 2px 15px 1px #D1D1D1; 
+		box-shadow: 2px 2px 15px 1px #D1D1D1;
+		transition: box-shadow 0.3s ease-in-out;
+    	font-size: 25px;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	}
+.photos a { flex: 40%; }
+	nav.secondary a:hover, .photos a:hover, .gallery-items:hover {
+		-webkit-box-shadow: 2px 2px 15px 1px #9E9E9E; 
+		box-shadow: 2px 2px 15px 1px #9E9E9E;
+	}
+.navtext {
+    position: absolute;
+    background-color: #f6f1e5;
+    padding: 5px 10px;
+    bottom: 0;
+}
+.navtext.contact {
+    position: relative;
+    text-align: center;
+    background: no-repeat;
+    padding: 15px;
+    width: 100%;
+}
+nav.primary {
+	position: sticky;
+    top: 0;
+    background: #f6f1e5;
+    z-index: 1;
+}
+nav.primary div { display: flex;     justify-content: space-between; }
+nav.primary a {
+	text-decoration: none;
+	text-align: center;
+	color: #71603e;
+	padding: 10px 0;
+	transition: color 0.3s ease-in-out;
+}
+nav.primary a:hover {
+	color: black;
+}
+.back-to-top-wrapper {
+  position: absolute;
+  top:  100vh;
+  right: 0.25rem;
+  bottom: -5em;
+  width: 3em;
+  pointer-events: none;
+}
+.back-to-top-link {
+  position: fixed;
+  position: sticky;
+  pointer-events: all;
+  top: calc(100vh - 2.5rem);
+
+}
+
+label {
+    display: block;
+    color: gray;
+    font-size: 0.9em;
+}
+input[type="text"] { width: 100%; margin-bottom: 10px; padding: 10px; }
+textarea { width: 100%; height: 200px; padding: 10px; }
+
+a.btn, input[type="submit"] {
+    background-color: #a3ac6d;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #727b37;
+    border-radius: 3px;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+}
+input[type="submit"] {
+	    padding: 10px 30px;
+    color: white;
+    font-size: 1.3em;
+}
+a.btn:hover, input[type="submit"]:hover {
+	border: 1px solid #a3ac6d;
+	background-color: #727b37;
+}
+.photos a.btn { padding: 20px;     font-weight: bold; }
+
+@media screen and (max-width: 900px) {
+nav.primary { display: none; }
+}
+
+
+.gallery-items {
+  flex: 40%;
+  position: relative;
+  cursor: pointer;
+}
+.gallery-items  span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    color: #fff;
+    font-size: 40px;
+    transform: translate3d(-50%, -50%, 0);
+  }
+  .gallery-items img { width: 100%; }
+</style><link type="text/css" rel="stylesheet" href="lightGallery/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="lightGallery/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="lightGallery/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="lightGallery/css/lightgallery-bundle.css"></head>
+<body>
+<header id="top">
+	<div class="black-fade"></div>
+	<h1>The Moulin Treillard<br>a turn-key gites business for sale!</h1>
+</header>
+<nav class="primary">
+<div>
+<a href="#mill">The Mill</a>
+<a href="#garden">Garden</a>
+<a href="#gite">Gite</a>
+<a href="#cottage">Cottage</a>
+<a href="#pool">Pool</a>
+<a href="#outbuildings">Outbuildings</a>
+<a href="#history">History</a>
+<a href="#contact">Contact us</a>
+</div>
+</nav>
+<main>
+	<h2>Renovated 17th century mill with 2 gites, heated swimmingpool and barn</h2>
+<p>The whole property is located in a haven of greenery, in peace, without any nuisance but still only 5 minutes to highway A20 and about 35 minutes from Limoges. The garden is furnished with a tree house and a small wooden chalet. A small lake overlooked by the swimming pool, where you can spot mallards, herons and the forest wildlife.</p>
+
+<nav class="secondary">
+<a href="#mill" style="background-image: url(assets/md-house.jpg); flex: 45%;"><div class="navtext">The Mill</div></a>
+<a href="#garden" style="background-image: url(assets/md-garden.jpg);"><div class="navtext">Garden</div></a>
+<a href="#gite" style="background-image: url(assets/md-gite1.jpg);"><div class="navtext">Gite</div></a>
+<a href="#pool" style="background-image: url(assets/md-pool.jpg);"><div class="navtext">Pool</div></a>
+<a href="#cottage" style="background-image: url(assets/md-cottage.jpg);"><div class="navtext">Cottage</div></a>
+<a href="#outbuildings" style="background-image: url(assets/md-barn.jpg);"><div class="navtext">Outbuildings</div></a>
+<a href="#history" style="background-image: url(assets/md-history.jpg); flex: 45%;"><div class="navtext">History</div></a>
+<!-- <a href="#contact" style="flex: 45%; display: flex; align-items: center;" class="btn"><div class="navtext contact"><strong>Contact us</strong> for more information or a viewing appointment</div></a> -->
+</nav>
+  <div class="back-to-top-wrapper">
+    <a href="#top" class="back-to-top-link" aria-label="Scroll to Top">
+    	<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="black" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"></path>
+  <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"></path>
+</svg>
+    </a>
+  </div>
+<h3 id="mill">The Mill</h3>
+<p>The mill has 3 bedrooms with en-suite bathrooms, a living room opening onto the dining room, an equipped kitchen and a utility room. The terrace gives access to the covered and heated swimming pool.</p>
+
+
+<div id="gallery-mill" class="photos">
+  <div class="gallery-items" style="background-image: url(assets/md-mill1.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-mill7.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-mill18.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-mill24.jpg)">
+    <span>+41</span>
+  </div>
+
+</div>
+
+
+
+<h3 id="garden">The Garden</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div id="gallery-garden" class="photos">
+  <div class="gallery-items" style="background-image: url(assets/md-garden.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-garden4.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-garden6.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-garden16.jpg)">
+    <span>+34</span>
+  </div>
+
+</div>
+
+<h3 id="gite">Gite</h3>
+<p>Th gîte has 5 bedrooms, 2 of which are en suite, a bathroom / wc, a lounge, living room and fitted kitchen with private terrace.</p>
+<div id="gallery-gite" class="photos">
+  <div class="gallery-items" style="background-image: url(assets/md-gite1.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-gite2.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-gite31.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-gite32.jpg)">
+    <span>+31</span>
+  </div>
+
+</div>
+
+<h3 id="cottage">Cottage</h3>
+<p>The 2nd gîte includes an equipped kitchen open to living room / lounge. Upstairs: 2 bedrooms and a bathroom / WC. Private terrace.</p>
+<div id="gallery-cottage" class="photos">
+  <div class="gallery-items" style="background-image: url(assets/md-cottage.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-cottage2.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-cottage5.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-cottage16.jpg)">
+    <span>+19</span>
+  </div>
+
+</div>
+
+<h3 id="pool">The Pool</h3>
+<p>The pool is covered and heated.</p>
+<div id="gallery-pool" class="photos">
+  <div class="gallery-items" style="background-image: url(assets/md-pool.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-pool9.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-pool2.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-pool3.jpg)">
+    <span>+7</span>
+  </div>
+
+</div>
+
+<h3 id="outbuildings">Outbuildings</h3>
+<p>The property comes with a large barn, several storage units, a separate shed for camper, pagoda and tree house.</p>
+<div id="gallery-outbuildings" class="photos">
+  <div class="gallery-items" style="background-image: url(assets/md-outbuildings5.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-outbuildings8.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-outbuildings11.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-outbuildings12.jpg)">
+    <span>+12</span>
+  </div>
+
+</div>
+
+<h3 id="history">History</h3>
+<p>Build in the 17th centry the mill was originally used for flour milling.</p>
+<div id="gallery-history" class="photos">
+  <div class="gallery-items" style="background-image: url(assets/md-history.jpg)">
+  </div>
+  <div class="gallery-items" style="background-image: url(assets/md-history2.jpg)">
+  </div>
+</div>
+
+<h3 id="contact">Contact Us</h3>
+<p>Don't hesitate to contact us by email or phone for more information or to book a viewing.</p>
+<p>Email: ....<br>
+Phone: ...</p>
+<p>
+	Or use the form below to send us a message and we will get in contact with you as soon as possible. 
+	</p><form>
+		<label>Name</label><input type="text" name="name">
+		<label>Email</label><input type="text" name="email">
+		<label>Phone</label><input type="text" name="phone">
+		<label>Message</label><textarea name="message"></textarea>
+		<input type="submit" name="Submit">
+	</form>
+<p></p>
+</main>
+
+    <script src="lightGallery/lightgallery.umd.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="lightGallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="lightGallery/plugins/zoom/lg-zoom.umd.js"></script>
+    <script src="lightGallery/plugins/video/lg-video.umd.js"></script>
+<script type="text/javascript">
+const $millGallery = document.getElementById("gallery-mill");
+const millGallery = window.lightGallery($millGallery, {
+  dynamic: true,
+  plugins: [lgZoom, lgVideo, lgThumbnail],
+  dynamicEl: [
+    {
+      src:   "assets/mill1.jpg",
+      thumb: "assets/xs-mill1.jpg"
+    },
+    {
+      src:   "assets/mill7.jpg",
+      thumb: "assets/xs-mill7.jpg"
+    },
+    {
+      src:   "assets/mill18.jpg",
+      thumb: "assets/xs-mill18.jpg"
+    },
+    {
+      src:   "assets/mill24.jpg",
+      thumb: "assets/xs-mill24.jpg"
+    },
+    {
+      src:   "assets/mill1.jpg",
+      thumb: "assets/xs-mill1.jpg"
+    },
+    {
+      src:   "assets/mill2.jpg",
+      thumb: "assets/xs-mill2.jpg"
+    },
+    {
+      src:   "assets/mill3.jpg",
+      thumb: "assets/xs-mill3.jpg"
+    },
+    {
+      src:   "assets/mill4.jpg",
+      thumb: "assets/xs-mill4.jpg"
+    },
+    {
+      src:   "assets/mill5.jpg",
+      thumb: "assets/xs-mill5.jpg"
+    },
+    {
+      src:   "assets/mill6.jpg",
+      thumb: "assets/xs-mill6.jpg"
+    },
+    {
+      src:   "assets/mill8.jpg",
+      thumb: "assets/xs-mill8.jpg"
+    },
+    {
+      src:   "assets/mill9.jpg",
+      thumb: "assets/xs-mill9.jpg"
+    },
+    {
+      src:   "assets/mill10.jpg",
+      thumb: "assets/xs-mill10.jpg"
+    },
+    {
+      src:   "assets/mill11.jpg",
+      thumb: "assets/xs-mill11.jpg"
+    },
+    {
+      src:   "assets/mill12.jpg",
+      thumb: "assets/xs-mill12.jpg"
+    },
+    {
+      src:   "assets/mill13.jpg",
+      thumb: "assets/xs-mill13.jpg"
+    },
+    {
+      src:   "assets/mill14.jpg",
+      thumb: "assets/xs-mill14.jpg"
+    },
+    {
+      src:   "assets/mill15.jpg",
+      thumb: "assets/xs-mill15.jpg"
+    },
+    {
+      src:   "assets/mill16.jpg",
+      thumb: "assets/xs-mill16.jpg"
+    },
+    {
+      src:   "assets/mill17.jpg",
+      thumb: "assets/xs-mill17.jpg"
+    },
+    {
+      src:   "assets/mill19.jpg",
+      thumb: "assets/xs-mill19.jpg"
+    },
+    {
+      src:   "assets/mill20.jpg",
+      thumb: "assets/xs-mill20.jpg"
+    },
+    {
+      src:   "assets/mill21.jpg",
+      thumb: "assets/xs-mill21.jpg"
+    },
+    {
+      src:   "assets/mill22.jpg",
+      thumb: "assets/xs-mill22.jpg"
+    },
+    {
+      src:   "assets/mill23.jpg",
+      thumb: "assets/xs-mill23.jpg"
+    },
+    {
+      src:   "assets/mill25.jpg",
+      thumb: "assets/xs-mill25.jpg"
+    },
+    {
+      src:   "assets/mill26.jpg",
+      thumb: "assets/xs-mill26.jpg"
+    },
+    {
+      src:   "assets/mill27.jpg",
+      thumb: "assets/xs-mill27.jpg"
+    },
+    {
+      src:   "assets/mill28.jpg",
+      thumb: "assets/xs-mill28.jpg"
+    },
+    {
+      src:   "assets/mill29.jpg",
+      thumb: "assets/xs-mill29.jpg"
+    },
+    {
+      src:   "assets/mill30.jpg",
+      thumb: "assets/xs-mill30.jpg"
+    },
+    {
+      src:   "assets/mill31.jpg",
+      thumb: "assets/xs-mill31.jpg"
+    },
+    {
+      src:   "assets/mill32.jpg",
+      thumb: "assets/xs-mill32.jpg"
+    },
+    {
+      src:   "assets/mill33.jpg",
+      thumb: "assets/xs-mill33.jpg"
+    },
+    {
+      src:   "assets/mill34.jpg",
+      thumb: "assets/xs-mill34.jpg"
+    },
+    {
+      src:   "assets/mill35.jpg",
+      thumb: "assets/xs-mill35.jpg"
+    },
+    {
+      src:   "assets/mill36.jpg",
+      thumb: "assets/xs-mill36.jpg"
+    },
+    {
+      src:   "assets/mill37.jpg",
+      thumb: "assets/xs-mill37.jpg"
+    },
+    {
+      src:   "assets/mill38.jpg",
+      thumb: "assets/xs-mill38.jpg"
+    },
+    {
+      src:   "assets/mill39.jpg",
+      thumb: "assets/xs-mill39.jpg"
+    },
+    {
+      src:   "assets/mill40.jpg",
+      thumb: "assets/xs-mill40.jpg"
+    },
+    {
+      src:   "assets/mill41.jpg",
+      thumb: "assets/xs-mill41.jpg"
+    },
+    {
+      src:   "assets/mill42.jpg",
+      thumb: "assets/xs-mill42.jpg"
+    },
+    {
+      src:   "assets/mill43.jpg",
+      thumb: "assets/xs-mill43.jpg"
+    },
+    {
+      src:   "assets/mill44.jpg",
+      thumb: "assets/xs-mill44.jpg"
+    }
+  ]
+});
+document.querySelectorAll("#gallery-mill .gallery-items").forEach((el, index) => {
+  el.addEventListener("click", () => {
+    millGallery.openGallery(index);
+  });
+});
+
+
+
+const $gardenGallery = document.getElementById("gallery-garden");
+const gardenGallery = window.lightGallery($gardenGallery, {
+  dynamic: true,
+  plugins: [lgZoom, lgVideo, lgThumbnail],
+  dynamicEl: [
+    {
+      src:   "assets/garden.jpg",
+      thumb: "assets/xs-garden.jpg"
+    },
+    {
+      src:   "assets/garden4.jpg",
+      thumb: "assets/xs-garden4.jpg"
+    },
+    {
+      src:   "assets/garden6.jpg",
+      thumb: "assets/xs-garden6.jpg"
+    },
+    {
+      src:   "assets/garden16.jpg",
+      thumb: "assets/xs-garden16.jpg"
+    },
+        {
+      src:   "assets/garden1.jpg",
+      thumb: "assets/xs-garden1.jpg"
+    },
+    {
+      src:   "assets/garden2.jpg",
+      thumb: "assets/xs-garden2.jpg"
+    },
+    {
+      src:   "assets/garden3.jpg",
+      thumb: "assets/xs-garden3.jpg"
+    },
+    {
+      src:   "assets/garden5.jpg",
+      thumb: "assets/xs-garden5.jpg"
+    },
+    {
+      src:   "assets/garden7.jpg",
+      thumb: "assets/xs-garden7.jpg"
+    },
+    {
+      src:   "assets/garden8.jpg",
+      thumb: "assets/xs-garden8.jpg"
+    },
+    {
+      src:   "assets/garden9.jpg",
+      thumb: "assets/xs-garden9.jpg"
+    },
+    {
+      src:   "assets/garden10.jpg",
+      thumb: "assets/xs-garden10.jpg"
+    },
+    {
+      src:   "assets/garden11.jpg",
+      thumb: "assets/xs-garden11.jpg"
+    },
+    {
+      src:   "assets/garden12.jpg",
+      thumb: "assets/xs-garden12.jpg"
+    },
+    {
+      src:   "assets/garden13.jpg",
+      thumb: "assets/xs-garden13.jpg"
+    },
+    {
+      src:   "assets/garden14.jpg",
+      thumb: "assets/xs-garden14.jpg"
+    },
+    {
+      src:   "assets/garden15.jpg",
+      thumb: "assets/xs-garden15.jpg"
+    },
+    {
+      src:   "assets/garden17.jpg",
+      thumb: "assets/xs-garden17.jpg"
+    },
+    {
+      src:   "assets/garden18.jpg",
+      thumb: "assets/xs-garden18.jpg"
+    },
+    {
+      src:   "assets/garden19.jpg",
+      thumb: "assets/xs-garden19.jpg"
+    },
+    {
+      src:   "assets/garden20.jpg",
+      thumb: "assets/xs-garden20.jpg"
+    },
+    {
+      src:   "assets/garden21.jpg",
+      thumb: "assets/xs-garden21.jpg"
+    },
+    {
+      src:   "assets/garden22.jpg",
+      thumb: "assets/xs-garden22.jpg"
+    },
+    {
+      src:   "assets/garden23.jpg",
+      thumb: "assets/xs-garden23.jpg"
+    },
+    {
+      src:   "assets/garden24.jpg",
+      thumb: "assets/xs-garden24.jpg"
+    },
+    {
+      src:   "assets/garden25.jpg",
+      thumb: "assets/xs-garden25.jpg"
+    },
+    {
+      src:   "assets/garden26.jpg",
+      thumb: "assets/xs-garden26.jpg"
+    },
+    {
+      src:   "assets/garden27.jpg",
+      thumb: "assets/xs-garden27.jpg"
+    },
+    {
+      src:   "assets/garden28.jpg",
+      thumb: "assets/xs-garden28.jpg"
+    },
+    {
+      src:   "assets/garden29.jpg",
+      thumb: "assets/xs-garden29.jpg"
+    },
+    {
+      src:   "assets/garden30.jpg",
+      thumb: "assets/xs-garden30.jpg"
+    },
+    {
+      src:   "assets/garden31.jpg",
+      thumb: "assets/xs-garden31.jpg"
+    },
+    {
+      src:   "assets/garden32.jpg",
+      thumb: "assets/xs-garden32.jpg"
+    },
+    {
+      src:   "assets/garden33.jpg",
+      thumb: "assets/xs-garden33.jpg"
+    },
+    {
+      src:   "assets/garden34.jpg",
+      thumb: "assets/xs-garden34.jpg"
+    },
+    {
+      src:   "assets/garden35.jpg",
+      thumb: "assets/xs-garden35.jpg"
+    },
+    {
+      src:   "assets/garden36.jpg",
+      thumb: "assets/xs-garden36.jpg"
+    },
+    {
+      src:   "assets/garden37.jpg",
+      thumb: "assets/xs-garden37.jpg"
+    }
+  ]
+});
+document.querySelectorAll("#gallery-garden .gallery-items").forEach((el, index) => {
+  el.addEventListener("click", () => {
+    gardenGallery.openGallery(index);
+  });
+});
+
+const $giteGallery = document.getElementById("gallery-gite");
+const giteGallery = window.lightGallery($giteGallery, {
+  dynamic: true,
+  plugins: [lgZoom, lgVideo, lgThumbnail],
+  dynamicEl: [
+    {
+      src:   "assets/gite1.jpg",
+      thumb: "assets/xs-gite1.jpg"
+    },
+    {
+      src:   "assets/gite2.jpg",
+      thumb: "assets/xs-gite2.jpg"
+    },
+    {
+      src:   "assets/gite31.jpg",
+      thumb: "assets/xs-gite31.jpg"
+    },
+    {
+      src:   "assets/gite32.jpg",
+      thumb: "assets/xs-gite132.jpg"
+    },
+      {
+      src:   "assets/gite3.jpg",
+      thumb: "assets/xs-gite3.jpg"
+    },
+    {
+      src:   "assets/gite4.jpg",
+      thumb: "assets/xs-gite4.jpg"
+    },
+    {
+      src:   "assets/gite5.jpg",
+      thumb: "assets/xs-gite5.jpg"
+    },
+    {
+      src:   "assets/gite6.jpg",
+      thumb: "assets/xs-gite6.jpg"
+    },
+    {
+      src:   "assets/gite7.jpg",
+      thumb: "assets/xs-gite7.jpg"
+    },
+    {
+      src:   "assets/gite8.jpg",
+      thumb: "assets/xs-gite8.jpg"
+    },
+    {
+      src:   "assets/gite9.jpg",
+      thumb: "assets/xs-gite9.jpg"
+    },
+    {
+      src:   "assets/gite10.jpg",
+      thumb: "assets/xs-gite10.jpg"
+    },
+    {
+      src:   "assets/gite11.jpg",
+      thumb: "assets/xs-gite11.jpg"
+    },
+    {
+      src:   "assets/gite12.jpg",
+      thumb: "assets/xs-gite12.jpg"
+    },
+    {
+      src:   "assets/gite13.jpg",
+      thumb: "assets/xs-gite13.jpg"
+    },
+    {
+      src:   "assets/gite14.jpg",
+      thumb: "assets/xs-gite14.jpg"
+    },
+    {
+      src:   "assets/gite15.jpg",
+      thumb: "assets/xs-gite15.jpg"
+    },
+    {
+      src:   "assets/gite16.jpg",
+      thumb: "assets/xs-gite16.jpg"
+    },
+    {
+      src:   "assets/gite17.jpg",
+      thumb: "assets/xs-gite17.jpg"
+    },
+    {
+      src:   "assets/gite18.jpg",
+      thumb: "assets/xs-gite18.jpg"
+    },
+    {
+      src:   "assets/gite19.jpg",
+      thumb: "assets/xs-gite19.jpg"
+    },
+    {
+      src:   "assets/gite20.jpg",
+      thumb: "assets/xs-gite20.jpg"
+    },
+    {
+      src:   "assets/gite21.jpg",
+      thumb: "assets/xs-gite21.jpg"
+    },
+    {
+      src:   "assets/gite22.jpg",
+      thumb: "assets/xs-gite22.jpg"
+    },
+    {
+      src:   "assets/gite23.jpg",
+      thumb: "assets/xs-gite23.jpg"
+    },
+    {
+      src:   "assets/gite24.jpg",
+      thumb: "assets/xs-gite24.jpg"
+    },
+    {
+      src:   "assets/gite25.jpg",
+      thumb: "assets/xs-gite25.jpg"
+    },
+    {
+      src:   "assets/gite26.jpg",
+      thumb: "assets/xs-gite26.jpg"
+    },
+    {
+      src:   "assets/gite27.jpg",
+      thumb: "assets/xs-gite27.jpg"
+    },
+    {
+      src:   "assets/gite28.jpg",
+      thumb: "assets/xs-gite28.jpg"
+    },
+    {
+      src:   "assets/gite29.jpg",
+      thumb: "assets/xs-gite29.jpg"
+    },
+    {
+      src:   "assets/gite30.jpg",
+      thumb: "assets/xs-gite30.jpg"
+    },
+    {
+      src:   "assets/gite33.jpg",
+      thumb: "assets/xs-gite33.jpg"
+    },
+    {
+      src:   "assets/gite34.jpg",
+      thumb: "assets/xs-gite34.jpg"
+    },
+    {
+      src:   "assets/gite35.jpg",
+      thumb: "assets/xs-gite35.jpg"
+    },
+  ]
+});
+document.querySelectorAll("#gallery-gite .gallery-items").forEach((el, index) => {
+  el.addEventListener("click", () => {
+    giteGallery.openGallery(index);
+  });
+});
+
+const $poolGallery = document.getElementById("gallery-pool");
+const poolGallery = window.lightGallery($poolGallery, {
+  dynamic: true,
+  plugins: [lgZoom, lgVideo, lgThumbnail],
+  dynamicEl: [
+    {
+      src:   "assets/pool.jpg",
+      thumb: "assets/xs-pool.jpg"
+    },
+    {
+      src:   "assets/pool9.jpg",
+      thumb: "assets/xs-pool9.jpg"
+    },
+    {
+      src:   "assets/pool2.jpg",
+      thumb: "assets/xs-pool2.jpg"
+    },
+    {
+      src:   "assets/pool3.jpg",
+      thumb: "assets/xs-pool3.jpg"
+    },
+    {
+      src:   "assets/pool4.jpg",
+      thumb: "assets/xs-pool4.jpg"
+    },
+    {
+      src:   "assets/pool5.jpg",
+      thumb: "assets/xs-pool5.jpg"
+    },
+    {
+      src:   "assets/pool6.jpg",
+      thumb: "assets/xs-pool6.jpg"
+    },
+    {
+      src:   "assets/pool7.jpg",
+      thumb: "assets/xs-pool7.jpg"
+    },
+    {
+      src:   "assets/pool8.jpg",
+      thumb: "assets/xs-pool8.jpg"
+    },
+    {
+      src:   "assets/pool10.jpg",
+      thumb: "assets/xs-pool10.jpg"
+    },
+    {
+      src:   "assets/pool1.jpg",
+      thumb: "assets/xs-pool1.jpg"
+    }
+  ]
+});
+document.querySelectorAll("#gallery-pool .gallery-items").forEach((el, index) => {
+  el.addEventListener("click", () => {
+    poolGallery.openGallery(index);
+  });
+});
+
+const $cottageGallery = document.getElementById("gallery-cottage");
+const cottageGallery = window.lightGallery($cottageGallery, {
+  dynamic: true,
+  plugins: [lgZoom, lgVideo, lgThumbnail],
+  dynamicEl: [
+    {
+      src:   "assets/cottage.jpg",
+      thumb: "assets/xs-cottage.jpg"
+    },
+    {
+      src:   "assets/cottage2.jpg",
+      thumb: "assets/xs-cottage2.jpg"
+    },
+    {
+      src:   "assets/cottage5.jpg",
+      thumb: "assets/xs-cottage5.jpg"
+    },
+    {
+      src:   "assets/cottage16.jpg",
+      thumb: "assets/xs-cottage16.jpg"
+    },
+        {
+      src:   "assets/cottage1.jpg",
+      thumb: "assets/xs-cottage1.jpg"
+    },
+    {
+      src:   "assets/cottage3.jpg",
+      thumb: "assets/xs-cottage3.jpg"
+    },
+    {
+      src:   "assets/cottage4.jpg",
+      thumb: "assets/xs-cottage4.jpg"
+    },
+    {
+      src:   "assets/cottage6.jpg",
+      thumb: "assets/xs-cottage6.jpg"
+    },
+    {
+      src:   "assets/cottage7.jpg",
+      thumb: "assets/xs-cottage7.jpg"
+    },
+    {
+      src:   "assets/cottage8.jpg",
+      thumb: "assets/xs-cottage8.jpg"
+    },
+    {
+      src:   "assets/cottage9.jpg",
+      thumb: "assets/xs-cottage9.jpg"
+    },
+    {
+      src:   "assets/cottage10.jpg",
+      thumb: "assets/xs-cottage10.jpg"
+    },
+    {
+      src:   "assets/cottage11.jpg",
+      thumb: "assets/xs-cottage11.jpg"
+    },
+    {
+      src:   "assets/cottage12.jpg",
+      thumb: "assets/xs-cottage12.jpg"
+    },
+    {
+      src:   "assets/cottage13.jpg",
+      thumb: "assets/xs-cottage13.jpg"
+    },
+    {
+      src:   "assets/cottage14.jpg",
+      thumb: "assets/xs-cottage14.jpg"
+    },
+    {
+      src:   "assets/cottage15.jpg",
+      thumb: "assets/xs-cottage15.jpg"
+    },
+    {
+      src:   "assets/cottage17.jpg",
+      thumb: "assets/xs-cottage17.jpg"
+    },
+    {
+      src:   "assets/cottage18.jpg",
+      thumb: "assets/xs-cottage18.jpg"
+    },
+    {
+      src:   "assets/cottage19.jpg",
+      thumb: "assets/xs-cottage19.jpg"
+    },
+    {
+      src:   "assets/cottage20.jpg",
+      thumb: "assets/xs-cottage20.jpg"
+    },
+    {
+      src:   "assets/cottage21.jpg",
+      thumb: "assets/xs-cottage21.jpg"
+    },
+    {
+      src:   "assets/cottage22.jpg",
+      thumb: "assets/xs-cottage22.jpg"
+    }
+  ]
+});
+document.querySelectorAll("#gallery-cottage .gallery-items").forEach((el, index) => {
+  el.addEventListener("click", () => {
+    cottageGallery.openGallery(index);
+  });
+});
+
+const $outbuildingsGallery = document.getElementById("gallery-outbuildings");
+const outbuildingsGallery = window.lightGallery($outbuildingsGallery, {
+  dynamic: true,
+  plugins: [lgZoom, lgVideo, lgThumbnail],
+  dynamicEl: [
+    {
+      src:   "assets/outbuildings5.jpg",
+      thumb: "assets/xs-outbuildings5.jpg"
+    },
+    {
+      src:   "assets/outbuildings8.jpg",
+      thumb: "assets/xs-outbuildings8.jpg"
+    },
+    {
+      src:   "assets/outbuildings11.jpg",
+      thumb: "assets/xs-outbuildings11.jpg"
+    },
+    {
+      src:   "assets/outbuildings12.jpg",
+      thumb: "assets/xs-outbuildings12.jpg"
+    },
+    {
+      src:   "assets/outbuildings1.jpg",
+      thumb: "assets/xs-outbuildings1.jpg"
+    },
+    {
+      src:   "assets/outbuildings2.jpg",
+      thumb: "assets/xs-outbuildings2.jpg"
+    },
+    {
+      src:   "assets/outbuildings3.jpg",
+      thumb: "assets/xs-outbuildings3.jpg"
+    },
+    {
+      src:   "assets/outbuildings4.jpg",
+      thumb: "assets/xs-outbuildings4.jpg"
+    },
+    {
+      src:   "assets/outbuildings6.jpg",
+      thumb: "assets/xs-outbuildings6.jpg"
+    },
+    {
+      src:   "assets/outbuildings7.jpg",
+      thumb: "assets/xs-outbuildings7.jpg"
+    },
+    {
+      src:   "assets/outbuildings9.jpg",
+      thumb: "assets/xs-outbuildings9.jpg"
+    },
+    {
+      src:   "assets/outbuildings10.jpg",
+      thumb: "assets/xs-outbuildings10.jpg"
+    },
+    {
+      src:   "assets/outbuildings13.jpg",
+      thumb: "assets/xs-outbuildings13.jpg"
+    },
+    {
+      src:   "assets/outbuildings14.jpg",
+      thumb: "assets/xs-outbuildings14.jpg"
+    },
+    {
+      src:   "assets/outbuildings15.jpg",
+      thumb: "assets/xs-outbuildings15.jpg"
+    },
+    {
+      src:   "assets/outbuildings16.jpg",
+      thumb: "assets/xs-outbuildings16.jpg"
+    }
+  ]
+});
+document.querySelectorAll("#gallery-outbuildings .gallery-items").forEach((el, index) => {
+  el.addEventListener("click", () => {
+    outbuildingsGallery.openGallery(index);
+  });
+});
+
+const $historyGallery = document.getElementById("gallery-history");
+const historyGallery = window.lightGallery($historyGallery, {
+  dynamic: true,
+  plugins: [lgZoom, lgVideo, lgThumbnail],
+  dynamicEl: [
+    {
+      src:   "assets/history.jpg",
+      thumb: "assets/xs-history.jpg"
+    },{
+      src:   "assets/history2.jpg",
+      thumb: "assets/xs-history2.jpg"
+    },
+  ]
+});
+document.querySelectorAll("#gallery-history .gallery-items").forEach((el, index) => {
+  el.addEventListener("click", () => {
+    historyGallery.openGallery(index);
+  });
+});
+</script>
+</body></html>
