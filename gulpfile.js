@@ -91,10 +91,10 @@ function watch() {
   gulp.series(browserSyncReload));
 }
 
-
+gulp.task('imgxl', gulp.series(imgxl))
 gulp.task('dev', gulp.parallel(browserSyncServe, watch))
 gulp.task('default', gulp.parallel(browserSyncServe, watch))
-gulp.task('rebuild', gulp.series(clean,  gulp.parallel(imgxs, imgmd, imgxl), browserSyncServe, watch))
+gulp.task('rebuild', gulp.series(clean, imgxs, imgmd, imgxl, browserSyncServe, watch))
 
 gulp.task('img', gulp.parallel(imgxs, imgmd, imgxl))
 gulp.task('clean', gulp.series(clean))
